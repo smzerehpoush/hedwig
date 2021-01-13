@@ -18,6 +18,136 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Application.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Behaviours/RequestLogger.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Behaviours/RequestPerformanceBehaviour.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Behaviours/RequestValidationBehavior.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/BadRequestException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/DeleteFailureException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/NotFoundException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/ServiceException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/ValidationException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Interfaces/ICurrentRequestService.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Interfaces/ICurrentUserService.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Interfaces/IDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Mappings/IMapFrom.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Mappings/MappingProfile.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/DeleteUserCommand.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/DeleteUserCommandHandler.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/DeleteUserCommandValidator.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUser/GetUserDetailQuery.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUser/GetUserQuery.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUserDetail/GetUserDetailQuery.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUserDetail/UserDetailViewModel.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Common/Common.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Domain.Shared/Exceptions/ResultStatus.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Domain.Shared/ResultStatus.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Domain/Domain.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Domain/Entities/User.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
