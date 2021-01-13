@@ -1,4 +1,5 @@
 # Hedwig <img align="left" width="100" height="100" src="https://github.com/smzerehpoush/hedwig/blob/main/docs/images/hedwig.png?raw=true" />
+### Back-end project written in [.NET](https://dotnet.microsoft.com/)
 <br/>
 
 ## Project Structure
