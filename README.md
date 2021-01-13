@@ -1,5 +1,9 @@
-# Hedwig <img align="left" width="100" height="100" src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/20_-_Harry_Potter_-_Colour_-_Hedwig_Owl-256.png" />
+# Hedwig <img align="left" width="100" height="100" src="https://github.com/smzerehpoush/hedwig/blob/main/docs/images/hedwig.png?raw=true" />
 <br/>
+
+## Project Structure
+<img src="https://github.com/smzerehpoush/hedwig/blob/main/docs/images/clean_architecture.jpg?raw=true" />
+<img src="https://github.com/smzerehpoush/hedwig/blob/main/docs/images/application_architecture.png?raw=true" />
 
 ## Project Tech Stack
 - [Git](https://git-scm.com) as VCS
