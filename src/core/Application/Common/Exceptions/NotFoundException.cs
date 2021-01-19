@@ -5,10 +5,10 @@ using Domain.Shared.Exceptions;
 
 namespace Application.Common.Exceptions
 {
-    public class NotFoundException : ServiceException
+    public class NotFoundException : ApplicationException
     {
-        public NotFoundException(ResultStatus resultStatus, string? message)
-            : base(HttpStatusCode.NotFound, resultStatus, message + " Not Found.")
+        public NotFoundException(ResultStatus resultStatus, string? item)
+            : base(HttpStatusCode.NotFound, resultStatus, item + " Not Found.")
         {
         }
     }

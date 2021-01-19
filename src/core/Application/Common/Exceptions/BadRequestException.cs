@@ -4,7 +4,7 @@ using Domain.Shared.Exceptions;
 
 namespace Application.Common.Exceptions
 {
-    public class BadRequestException : ServiceException
+    public class BadRequestException : ApplicationException
     {
         private ResultStatus _resultStatus;
 

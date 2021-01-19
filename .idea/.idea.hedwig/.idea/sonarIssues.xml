@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/ApplicationException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/core/Application/Common/Exceptions/BadRequestException.cs">
           <value>
             <set />
@@ -78,12 +83,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Interfaces/IProjectDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/core/Application/Common/Mappings/IMapFrom.cs">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/core/Application/Common/Mappings/MappingProfile.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Common/Models/Result.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/DependencyInjection.cs">
           <value>
             <set />
           </value>
@@ -103,6 +123,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/UserDeletedEvent.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/UserDeletedEventHandler.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/UserDeletedNotification.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/UserDeletedNotificationHandler.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Commands/DeleteUser/UserNotFoundException.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUser/GetUserDetailQuery.cs">
           <value>
             <set />
@@ -118,7 +163,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUserDetail/GetUserDetailQueryHandler.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUserDetail/GetUserDetailQueryValidator.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUserDetail/UserDetailViewModel.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUsersList/GetUsersListQuery.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUsersList/GetUsersListQueryHandler.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUsersList/UserDto.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUsersList/UsersListViewModel.cs">
           <value>
             <set />
           </value>
@@ -138,12 +213,62 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Domain/Common/AuditableEntity.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/core/Domain/Common/ValueObject.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/core/Domain/Domain.csproj">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/core/Domain/Entities/User.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Infrastructure/ApplicationDbContext.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Infrastructure/DependencyInjection.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Infrastructure/Infrastructure.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/DependencyInjection.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/DesignTimeDbContextFactoryBase.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/NorthwindDbContextFactory.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/Persistence.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/ProjectDbContext.cs">
           <value>
             <set />
           </value>

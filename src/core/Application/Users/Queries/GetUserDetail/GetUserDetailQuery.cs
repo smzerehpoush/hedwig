@@ -5,6 +5,6 @@ namespace Application.Users.Queries.GetUser
 {
     public class GetUserDetailQuery : IRequest<UserDetailViewModel>
     {
-        public Guid Id { get; set; }
+        public Guid UserId { get; set; }
     }
 }

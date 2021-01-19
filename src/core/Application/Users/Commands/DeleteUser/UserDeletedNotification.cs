@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Application.Users.Commands.DeleteUser
 {
-    public class DeleteUserCommand : IRequest
+    public class UserDeletedNotification : INotification
     {
         public Guid UserId { get; set; }
     }

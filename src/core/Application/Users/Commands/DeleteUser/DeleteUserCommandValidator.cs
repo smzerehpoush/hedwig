@@ -6,7 +6,7 @@ namespace Application.Users.Commands.DeleteUser
     {
         public DeleteUserCommandValidator()
         {
-            RuleFor(v => v.Id).NotNull();
+            RuleFor(v => v.UserId).NotNull();
         }
     }
 }
