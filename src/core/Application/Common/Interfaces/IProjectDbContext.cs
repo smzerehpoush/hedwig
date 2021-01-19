@@ -7,6 +7,6 @@ namespace Application.Common.Interfaces
     public interface IProjectDbContext
     {
         DbSet<User> Users { get; set; }
-        Task SaveChangesAsync(CancellationToken cancellationToken);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }

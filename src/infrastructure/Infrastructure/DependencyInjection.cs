@@ -10,9 +10,6 @@ namespace Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration, IWebHostEnvironment environment)
         {
-            // services.AddTransient<INotificationService, NotificationService>();
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("Default")));
             return services;
         }
     }

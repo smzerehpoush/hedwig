@@ -7,8 +7,4 @@
     <ItemGroup>
     <ProjectReference Include="..\Domain.Shared\Domain.Shared.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="ValueObjects" />
-    </ItemGroup>
 </Project>

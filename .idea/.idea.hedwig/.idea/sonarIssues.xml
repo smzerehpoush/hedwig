@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Downloads/home items.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.idea/.idea.hedwig/.idea/.gitignore">
           <value>
             <set />
@@ -244,6 +249,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/Infrastructure/Infrastructure.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/Configurations/UserConfiguration.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/Persistence/Configurations/UserContiguration.cs">
           <value>
             <set />
           </value>
