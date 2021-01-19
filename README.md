@@ -6,7 +6,7 @@
 <img src="https://github.com/smzerehpoush/hedwig/blob/main/docs/images/clean_architecture.jpg?raw=true" />
 <img src="https://github.com/smzerehpoush/hedwig/blob/main/docs/images/application_architecture.png?raw=true" />
 
-## Project Tech Stack
+### Project Tech Stack
 - [Git](https://git-scm.com) as VCS
 - [.NET](https://dotnet.microsoft.com/) as Framework
 - [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) as API styling
