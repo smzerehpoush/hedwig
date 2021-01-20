@@ -288,6 +288,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Application.UnitTests.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/Domain.UnitTests/Domain.UnitTests.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
