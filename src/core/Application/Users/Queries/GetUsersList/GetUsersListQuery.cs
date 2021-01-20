@@ -2,7 +2,7 @@
 
 namespace Application.Users.Queries.GetUsersList
 {
-    public class GetUsersListQuery : IRequest<UsersListViewModel>
+    public class GetUsersListQuery : IRequest<GetUsersListViewModel>
     {
         
     }

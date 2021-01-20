@@ -2,7 +2,7 @@
 
 namespace Application.Users.Queries.GetUsersList
 {
-    public class UsersListViewModel
+    public class GetUsersListViewModel
     {
         public IList Users { get; set; }
     }

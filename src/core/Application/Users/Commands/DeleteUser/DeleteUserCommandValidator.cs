@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using System;
+using FluentValidation;
 
 namespace Application.Users.Commands.DeleteUser
 {
@@ -6,7 +7,8 @@ namespace Application.Users.Commands.DeleteUser
     {
         public DeleteUserCommandValidator()
         {
-            RuleFor(v => v.UserId).NotNull();
+            RuleFor(v => v.UserId).NotNull().NotEmpty();
+            RuleFor(v => v.UserId).NotEqual(Guid.Empty);
         }
     }
 }

@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/Immediate Window">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Downloads/home items.json">
           <value>
             <set />
@@ -193,6 +198,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUsersList/GetUsersListViewModel.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/core/Application/Users/Queries/GetUsersList/UserDto.cs">
           <value>
             <set />
@@ -288,7 +298,87 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Common/CustomExceptionHandlerMiddleware.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Controllers/BaseController.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Controllers/CategoriesController.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Controllers/UsersController.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Program.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Services/CurrentUserService.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/Startup.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/presentation/WebAPI/WebAPI.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Application.UnitTests.csproj">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Common/CommandTestBase.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Common/NorthwindContextFactory.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Common/ProjectContextFactory.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Common/QueryTestFixture.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Mappings/MappingTests.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Mappings/MappingTestsFixture.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Users/Commands/DeleteUser/DeleteUserCommandTest.cs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/application/Application.UnitTests/Users/Commands/DeleteUser/DeleteUserCommandTests.cs">
           <value>
             <set />
           </value>

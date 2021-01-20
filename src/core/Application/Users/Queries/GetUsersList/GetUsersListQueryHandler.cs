@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application.Users.Queries.GetUsersList
 {
-    public class GetUsersListQueryHandler : IRequestHandler<GetUsersListQuery, UsersListViewModel>
+    public class GetUsersListQueryHandler : IRequestHandler<GetUsersListQuery, GetUsersListViewModel>
     {
         private readonly IProjectDbContext _context;
         private readonly IMapper _mapper;
@@ -19,12 +19,12 @@ namespace Application.Users.Queries.GetUsersList
             _mapper = mapper;
         }
 
-        public async Task<UsersListViewModel> Handle(GetUsersListQuery request, CancellationToken cancellationToken)
+        public async Task<GetUsersListViewModel> Handle(GetUsersListQuery request, CancellationToken cancellationToken)
         {
             var users = await _context.Users
                 .ProjectTo<UserDto>(_mapper.ConfigurationProvider)
                 .ToListAsync(cancellationToken);
-            return new UsersListViewModel() {Users = users};
+            return new GetUsersListViewModel() {Users = users};
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Persistence
 {
-    public class NorthwindDbContextFactory : DesignTimeDbContextFactoryBase<ProjectDbContext>
+    public class ProjectDbContextFactory : DesignTimeDbContextFactoryBase<ProjectDbContext>
     {
         protected override ProjectDbContext CreateNewInstance(DbContextOptions<ProjectDbContext> options)
         {

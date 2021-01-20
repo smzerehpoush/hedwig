@@ -6,27 +6,28 @@ namespace Application.Common.Exceptions
 {
     public class ApplicationException : Exception
     {
-        private readonly HttpStatusCode _statusCode;
-        private readonly ResultStatus _resultStatus;
+        public HttpStatusCode StatusCode { get; private set; }
+    
+        public ResultStatus ResultStatus{ get; private set;}
 
         public ApplicationException(HttpStatusCode statusCode, ResultStatus resultStatus)
         {
-            _statusCode = statusCode;
-            _resultStatus = resultStatus;
+            StatusCode = statusCode;
+            ResultStatus = resultStatus;
         }
 
         public ApplicationException(HttpStatusCode statusCode, ResultStatus resultStatus, string? message) : base(message)
         {
-            _statusCode = statusCode;
-            _resultStatus = resultStatus;
+            StatusCode = statusCode;
+            ResultStatus = resultStatus;
         }
 
         public ApplicationException(HttpStatusCode statusCode, ResultStatus resultStatus, string? message,
             Exception? innerException) : base(message,
             innerException)
         {
-            _statusCode = statusCode;
-            _resultStatus = resultStatus;
+            StatusCode = statusCode;
+            ResultStatus = resultStatus;
         }
     }
 }

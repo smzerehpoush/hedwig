@@ -35,7 +35,7 @@ namespace Application.Common.Behaviours
                 var name = typeof(TRequest).Name;
 
                 _logger.LogWarning(
-                    "Northwind Long Running Request: {Name} ({ElapsedMilliseconds} milliseconds) {@UserId} {@Request}",
+                    "Long Running Request: {Name} ({ElapsedMilliseconds} milliseconds) {@UserId} {@Request}",
                     name, _timer.ElapsedMilliseconds, _currentUserService.UserId, request);
             }
 
