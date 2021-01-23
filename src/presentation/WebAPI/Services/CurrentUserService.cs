@@ -8,6 +8,7 @@ namespace WebAPI.Services
     {
         public CurrentUserService(IHttpContextAccessor httpContextAccessor)
         {
+            //todo get user id fom token
             UserId = Guid.NewGuid();
             IsAuthenticated = UserId != null;
         }
